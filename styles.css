@@ -179,16 +179,16 @@ nav {
     transform: scale(0);
   }
 
-  80%[ transform: scale(1.1);
+  80%{ transform: scale(1.1);
 
-  ] 100% {
+  } 100% {
     transform: scale(1);
   }
 }
 
 .about-me__picture {
   width: 100%;
-  /* improving my own  */
+  
 
   transform: scale(1.5);
   padding-top: 20px;
@@ -206,7 +206,7 @@ nav {
 }
 
 .about-me__link {
-  /* the about-me __link is not working, the color and decorations are still there */
+  
   font-size: 20px;
   color: #242424;
 
@@ -230,14 +230,14 @@ nav {
 }
 
 .about-me__img--container {
-  /* I did not understand or see changes base on the these properties, i.e image coming out of the box */
+  
   flex: 1;
   display: flex;
   align-items: center;
 }
 
 .about-me__img {
-  /* though the image is %, it does not resize when the window is resize */
+  
   width: 100%;
   animation: fade-in 1200ms 800ms backwards;
 }
